@@ -1,12 +1,11 @@
-import { useState } from "react"
-import { TaskApp } from "./components/TaskApp"
+import { TaskAppWithReducer } from "./components/withoutUseReducerHook/TaskApp";
 
 function App() {
   return (
     <>
-      <TaskApp />
+      <TaskAppWithReducer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
